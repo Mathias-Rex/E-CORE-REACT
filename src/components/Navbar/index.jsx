@@ -4,7 +4,7 @@ export default function Navbar() {
       <div class="nav-container">
         <div class="logo">
           <a href="index.html">
-            <img src="assets/logo.png" alt="E-CORE logo" />
+            <img src="logo.png" alt="E-CORE logo" />
             E-CORE
           </a>
         </div>

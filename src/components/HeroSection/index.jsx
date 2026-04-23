@@ -1,5 +1,3 @@
-import heroImage from "../../assets/images/hero-spacecraft.jpg";
-
 export default function HeroSection() {
   return (
     <header class="hero">
@@ -18,7 +16,10 @@ export default function HeroSection() {
       </div>
 
       <div class="hero-image">
-        <img src={heroImage} alt="E-Core űrjármű" />
+        <img
+          src="https://res.cloudinary.com/djemtfagn/image/upload/v1776175092/hero-spacecraft_kjfsxw.jpg"
+          alt="E-Core űrjármű"
+        />
       </div>
     </header>
   );
