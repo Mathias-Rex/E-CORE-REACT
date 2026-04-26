@@ -1,6 +1,6 @@
 export default function Tortenetunk() {
-  return (
-    
+    return (
+    <section className="about-content">
             <div className="about-text">
                 <h3>Történetünk</h3>
                 <p>
@@ -20,6 +20,9 @@ export default function Tortenetunk() {
                 </p>
             </div>
 
-
-  );
+            <div className="about-image">
+                <img src="https://res.cloudinary.com/djemtfagn/image/upload/v1776175074/about-factory_essdws.jpg" alt="E-CORE gyártósorok" />
+            </div>
+        </section>
+    );
 }

@@ -63,11 +63,40 @@
 }
 
 /* Body - az oldal fő konténere */
+html,
+body,
+#root {
+    min-height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--color-background);
     color: var(--color-text-primary);
     line-height: 1.6;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.app-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-content {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
 }
 
 /* Container - központosított tartalom konténer */

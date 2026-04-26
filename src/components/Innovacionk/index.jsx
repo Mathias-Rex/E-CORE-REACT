@@ -1,5 +1,6 @@
 export default function Innovacionk() {
     return (
+    <section className="about-content">
         <div className="about-text">
             <h3>Innovacionk</h3>
             <p>
@@ -17,5 +18,10 @@ export default function Innovacionk() {
                 minden járművünk 90%-ban újrahasznosítható anyagokból készül.
             </p>
         </div>
+
+            <div className="about-image">
+                <img src="https://res.cloudinary.com/djemtfagn/image/upload/v1776175074/about-research_qjwvdq.jpg" />
+            </div>
+        </section>
     );
 }
