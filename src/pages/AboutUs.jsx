@@ -1,23 +1,23 @@
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Title from "../components/Factory";
+import Title from "../components/Title";
 import OurStory from "../components/OurStory";
 import Innovations from "../components/Innovations";
-import Cards from "../components/Cards";
+import ValuesCards from "../components/ValuesCards";
 import Factory from "../components/Factory";
 
 export default function AboutUs() {
   return (
     <div className="app-shell">
       <Navbar />
-      <main className="page-content">
-        <Title />
+      <Title />
+      <section className="about-content">
         <OurStory />
         <Innovations />
-        <Cards />
+        <ValuesCards />
         <Factory />
-      </main>
+      </section>
       <Footer />
     </div>
   );

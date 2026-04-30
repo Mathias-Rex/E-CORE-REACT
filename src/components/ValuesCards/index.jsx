@@ -1,6 +1,6 @@
-export default function Cards() {
+export default function ValuesCards() {
   return (
-    <section>
+    <>
       <h2 style={{textAlign: 'center', marginTop: '4rem', marginBottom: '2rem', color: '#00d9ff'}}>
         Értékeink
       </h2>
@@ -38,6 +38,6 @@ export default function Cards() {
           </p>
         </div>
       </div>
-    </section>
+    </>
   );
 }
