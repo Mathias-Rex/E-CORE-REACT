@@ -1,4 +1,4 @@
-import { CommerceList } from "../../components/Commerce/ships";
+import { CommerceList } from "./ships";
 
 export default function CommerceShips() {
     return (
