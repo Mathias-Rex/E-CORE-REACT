@@ -7,9 +7,9 @@ export default function VideoSection() {
           <video
             id="factoryVideo"
             class="factory-video"
-            autoplay
-            muted
-            loop
+            autoplay={true}
+            muted={true}
+            loop={true}
           >
             <source
               src="https://res.cloudinary.com/djemtfagn/video/upload/v1776333088/factory_forward_reverse_j1uh8t.mp4"
