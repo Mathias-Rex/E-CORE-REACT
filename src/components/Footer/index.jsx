@@ -1,13 +1,14 @@
 export default function Footer() {
-  return (      <footer class="footer">
-        <div class="container">
-          <div class="footer-content">
-            <div class="footer-section">
+  return (
+      <footer className="footer">
+        <div className="container">
+          <div className="footer-content">
+            <div className="footer-section">
               <h4>E-CORE Űrjárművek</h4>
               <p>Az űrutazás következő generációja</p>
             </div>
 
-            <div class="footer-section">
+            <div className="footer-section">
               <h4>Kapcsolat</h4>
               <p>
                 Email:&nbsp;
@@ -22,7 +23,7 @@ export default function Footer() {
               </p>
             </div>
 
-            <div class="footer-section">
+            <div className="footer-section">
               <h4>Gyors linkek</h4>
               <ul>
                 <li>
@@ -38,9 +39,10 @@ export default function Footer() {
             </div>
           </div>
 
-          <div class="footer-bottom">
+          <div className="footer-bottom">
             <p>&copy; 2026 E-CORE Űrjárművek. Minden jog fenntartva.</p>
           </div>
         </div>
-      </footer>);
+      </footer>
+  );
 }
