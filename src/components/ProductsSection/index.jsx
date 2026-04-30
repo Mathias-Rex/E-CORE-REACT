@@ -1,5 +1,4 @@
 import ProductCard from "../ProductCard";
-
 import { products } from "./products";
 
 export default function ProductsSection() {

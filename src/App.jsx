@@ -2,12 +2,13 @@ import Home from "./pages/Home";
 
 import "./style.css";
 import AboutUs from "./pages/AboutUs";
+import Commercial from "./pages/Commercial";
 
-function App() {
+export default function App() {
   return (
-    <AboutUs />
+    <Commercial/>
+    // <AboutUs />
     // <Home />
   );
 }
 
-export default App;
