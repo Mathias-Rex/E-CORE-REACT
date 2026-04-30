@@ -2,8 +2,10 @@ import Home from "./pages/Home";
 
 import "./style.css";
 
-export default function App() {
+function App() {
   return (
     <Home />
   );
 }
+
+export default App;
