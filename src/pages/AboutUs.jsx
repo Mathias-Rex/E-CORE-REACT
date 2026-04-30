@@ -1,10 +1,10 @@
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Title from "../components/Title";
 import OurStory from "../components/OurStory";
 import Innovations from "../components/Innovations";
 import ValuesCards from "../components/ValuesCards";
+import CarrierLink from "../components/CarrierLink";
 import Factory from "../components/Factory";
 
 export default function AboutUs() {
@@ -17,8 +17,9 @@ export default function AboutUs() {
         <Innovations />
         <ValuesCards />
         <Factory />
+        <CarrierLink />
       </section>
       <Footer />
     </div>
   );
-};
+}
