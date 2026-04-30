@@ -1,4 +1,4 @@
-export default function Tortenetunk() {
+export default function OurStory() {
     return (
     <section className="about-content">
             <div className="about-text">

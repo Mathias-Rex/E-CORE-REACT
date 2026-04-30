@@ -2,10 +2,10 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Title from "../components/Factory";
-import Tortenetunk from "../components/Tortenetunk";
-import Innovacionk from "../components/Innovacionk";
+import OurStory from "../components/OurStory";
+import Innovations from "../components/Innovations";
 import Cards from "../components/Cards";
-import Factory from "../components/Factory/index copy";
+import Factory from "../components/Factory";
 
 export default function AboutUs() {
   return (
@@ -13,8 +13,8 @@ export default function AboutUs() {
       <Navbar />
       <main className="page-content">
         <Title />
-        <Tortenetunk />
-        <Innovacionk />
+        <OurStory />
+        <Innovations />
         <Cards />
         <Factory />
       </main>

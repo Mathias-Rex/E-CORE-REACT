@@ -1,8 +1,8 @@
-export default function Innovacionk() {
+export default function Innovations() {
     return (
     <section className="about-content">
         <div className="about-text">
-            <h3>Innovacionk</h3>
+            <h3>Innovációk</h3>
             <p>
                 Kutatási részlegünk évente több milliárd kreditet fektet be új
                 technológiák fejlesztésébe. Legutóbbi áttörésünk a kvantum-hajtómű
