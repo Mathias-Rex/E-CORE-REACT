@@ -10,7 +10,7 @@ export default function CommerceShips() {
             <div className="container">
                 <ul className="products-grid">
                     {CommerceList.map((ship, index) => (
-                        <div className="product-item" >
+                        <a className="product-item" >
                             <li key={index} className="product-info">
                                 <h3>{ship.Title}</h3>
                                 <p>{ship.Description}</p>
@@ -20,7 +20,7 @@ export default function CommerceShips() {
                                     ))}
                                 </ul>
                             </li>
-                        </div>
+                        </a>
                     ))}
                 </ul>
             </div>
