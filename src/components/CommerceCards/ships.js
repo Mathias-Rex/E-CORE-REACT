@@ -9,6 +9,7 @@ export const CommerceList = [
       Hatótáv: "50 fényév",
       Legénység: "8 fő",
     },
+    Image: "https://res.cloudinary.com/djemtfagn/image/upload/cargo-hauler-mk3_hpvkja.jpg",
   },
   {
     Title: "Express Shuttle X-7",
@@ -20,6 +21,7 @@ export const CommerceList = [
       Hatótáv: "30 fényév",
       Legénység: "3 fő",
     },
+    Image: "https://res.cloudinary.com/djemtfagn/image/upload/express-shuttle-x7_v2ncuc.jpg",
   },
   {
     Title: "Station Liner SL-9",
@@ -31,6 +33,7 @@ export const CommerceList = [
       Hatótáv: "40 fényév",
       Legénység: "25 fő",
     },
+    Image: "https://res.cloudinary.com/djemtfagn/image/upload/station-liner-sl9_jscijb.jpg",
   },
   {
     Title: "Bulk Transport BT-15",
@@ -42,6 +45,7 @@ export const CommerceList = [
       Hatótáv: "45 fényév",
       Legénység: "12 fő",
     },
+    Image: "https://res.cloudinary.com/djemtfagn/image/upload/bulk-transport-bt15_jysbqy.jpg",
   },
   {
     Title: "Refrigerated Carrier RC-4",
@@ -53,6 +57,7 @@ export const CommerceList = [
       Hatótáv: "35 fényév",
       Legénység: "6 fő",
     },
+    Image: "https://res.cloudinary.com/djemtfagn/image/upload/refrigerated-carrier-rc4_axtmy8.jpg",
   },
   {
     Title: "Modular Freighter MF-8",
@@ -64,5 +69,6 @@ export const CommerceList = [
       Hatótáv: "38 fényév",
       Legénység: "7 fő",
     },
+    Image: "https://res.cloudinary.com/djemtfagn/image/upload/modular-freighter-mf8_vhihy6.jpg",
   },
 ];

@@ -1,29 +1,35 @@
 import { CommerceList } from "./ships";
 
 export default function CommerceShips() {
-    return (
-        <>
-            <div className="product-header">
-                    <h1>Kereskedelmi járművek</h1>
-                    <p>Megbízható és hatékony szállítási megoldások az űrben</p>
-            </div>
-            <div className="container">
-                <ul className="products-grid">
-                    {CommerceList.map((ship, index) => (
-                        <a className="product-item" >
-                            <li key={index} className="product-info">
-                                <h3>{ship.Title}</h3>
-                                <p>{ship.Description}</p>
-                                <ul className="product-specs">
-                                    {Object.entries(ship.Specs).map(([key, value]) => (
-                                        <li key={key}><strong>{key}:</strong> {value}</li>
-                                    ))}
-                                </ul>
-                            </li>
-                        </a>
-                    ))}
+  return (
+    <>
+      <div className="product-header">
+        <h1>Kereskedelmi járművek</h1>
+        <p>Megbízható és hatékony szállítási megoldások az űrben</p>
+      </div>
+      <div className="container">
+        <ul className="products-grid">
+          {CommerceList.map((ship, index) => (
+            <a className="product-item">
+              <div className="product-image-container">
+                <canvas className="smoke-canvas"></canvas>
+                <img src={ship.Image} alt={ship.Title} />
+              </div>
+              <li key={index} className="product-info">
+                <h3>{ship.Title}</h3>
+                <p>{ship.Description}</p>
+                <ul className="product-specs">
+                  {Object.entries(ship.Specs).map(([key, value]) => (
+                    <li key={key}>
+                      <strong>{key}:</strong> {value}
+                    </li>
+                  ))}
                 </ul>
-            </div>
-        </>
-    );
+              </li>
+            </a>
+          ))}
+        </ul>
+      </div>
+    </>
+  );
 }
