@@ -28,4 +28,3 @@ export const products = [
       link: "pages/battleships/index.html",
     },
 ];
-
