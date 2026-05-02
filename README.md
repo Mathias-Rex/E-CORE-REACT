@@ -1,16 +1,58 @@
-# React + Vite
+# E-CORE React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ez a projekt az E-CORE alkalmazás frontend része, amely React és Vite technológiákra épül.
 
-Currently, two official plugins are available:
+A projekt célja a korábbi, teljes egészében HTML + CSS + JavaScript alapú honlap újraalkotása React felhasználásával.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Előfeltételek
 
-## React Compiler
+- [Node.js](https://nodejs.org/) (LTS verzió javasolt)
+- [npm](https://www.npmjs.com/) (a Node.js-sal együtt települ)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Letöltés és telepítés
 
-## Expanding the ESLint configuration
+1. Klónozd a repository-t:
+   ```bash
+   git clone https://github.com/ViktorDev20/E-CORE-REACT.git
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Navigálj a projekt könyvtárába:
+   ```bash
+   cd E-CORE-REACT
+   ```
+
+3. Telepítsd a függőségeket:
+   ```bash
+   npm install
+   ```
+
+## Indítás fejlesztői módban
+
+```bash
+npm run dev
+```
+
+A fejlesztői szerver alapértelmezetten a `http://localhost:5173` címen érhető el.
+
+## Backend API
+
+A projekt az alábbi backend API-t használja:
+```
+https://ecore-backend-production.up.railway.app
+```
+
+## Build
+
+Éles verzió készítése:
+```bash
+npm run build
+```
+
+A build kimenete a `dist` mappába kerül.
+
+## Preview
+
+A buildelt verzió helyi futtatása:
+```bash
+npm run preview
+```
