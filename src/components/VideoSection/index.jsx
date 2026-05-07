@@ -1,12 +1,12 @@
 export default function VideoSection() {
   return (
-    <section class="video-section">
-      <div class="container">
+    <section className="video-section">
+      <div className="container">
         <h2>Tekintse meg gyártósorunkat működés közben</h2>
-        <div class="video-container">
+        <div className="video-container">
           <video
             id="factoryVideo"
-            class="factory-video"
+            className="factory-video"
             autoplay
             muted
             loop

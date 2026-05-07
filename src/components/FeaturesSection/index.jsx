@@ -4,11 +4,11 @@ import {features} from "./features";
 
 export default function FeaturesSection() {
   return (
-    <section class="features">
-      <div class="container">
+    <section className="features">
+      <div className="container">
         <h2>Miért válassza az E-CORE-t?</h2>
 
-        <div class="feature-grid">
+        <div className="feature-grid">
           {features.map((feature) => (
             <FeatureCard
               key={feature.title}

@@ -1,12 +1,12 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import CommerceSection from "../components/CommerceSection";
+import ResearchSection from "../components/ResearchSection";
 
 export default function Commercial() {
   return (
     <>
       <Navbar />
-      <CommerceSection />
+      <ResearchSection />
       <Footer />
     </>
   );
