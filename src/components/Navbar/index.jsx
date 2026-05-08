@@ -1,23 +1,23 @@
 export default function Navbar() {
   return (
-    <nav class="navbar">
-      <div class="nav-container">
-        <div class="logo">
+    <nav className="navbar">
+      <div className="nav-container">
+        <div className="logo">
           <a href="index.html">
             <img src="logo.png" alt="E-CORE logo" />
             E-CORE
           </a>
         </div>
 
-        <div class="hamburger" id="hamburger">
+        <div className="hamburger" id="hamburger">
           <span></span>
           <span></span>
           <span></span>
         </div>
 
-        <ul class="nav-menu" id="nav-menu">
+        <ul className="nav-menu" id="nav-menu">
           <li>
-            <a href="index.html" class="active">
+            <a href="index.html" className="active">
               Home
             </a>
           </li>

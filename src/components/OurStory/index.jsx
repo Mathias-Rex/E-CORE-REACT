@@ -1,6 +1,6 @@
 export default function OurStory() {
     return (
-      <div class="about-grid">
+      <div className="about-grid">
         <div className="about-text">
           <h3>Történetünk</h3>
           <p>

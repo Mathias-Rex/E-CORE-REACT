@@ -2,12 +2,15 @@ import Home from "./pages/Home";
 
 import "./style.css";
 import AboutUs from "./pages/AboutUs";
+import Commercial from "./pages/Commercial";
+import Research from "./pages/Research";
 
-function App() {
+export default function App() {
   return (
-    <AboutUs />
+    // <Commercial/>
+    <Research />
+    // <AboutUs />
     // <Home />
   );
 }
 
-export default App;
