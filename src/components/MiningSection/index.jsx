@@ -1,9 +1,9 @@
 // import { useEffect, useState } from "react";
 
-import {ResearchList as ships} from "./ships";
+import {MiningList as ships} from "./ships";
 import  CommerceCard from "../CommerceCard";
 
-export default function ResearchShips() {
+export default function MiningShips() {
   // const [ships, setShips] = useState([]);
 
   // useEffect(() => {
@@ -18,8 +18,8 @@ export default function ResearchShips() {
   return (
     <>
       <div className="product-header">
-        <h1>Kutatási járművek</h1>
-        <p>Fejlett szenzorokkal felszerelt felfedező űrhajók</p>
+        <h1>Bányászati járművek</h1>
+        <p>Speciális felszerelések aszteroida és bolygó bányászathoz</p>
       </div>
       <div className="container">
         <ul className="products-grid">
