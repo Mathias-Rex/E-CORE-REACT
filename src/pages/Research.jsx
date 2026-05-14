@@ -1,13 +1,9 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import ResearchSection from "../components/ResearchSection";
 
-export default function Commercial() {
+export default function Research() {
   return (
     <>
-      <Navbar />
       <ResearchSection />
-      <Footer />
     </>
   );
 }
