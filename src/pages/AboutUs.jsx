@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Title from "../components/Title";
 import OurStory from "../components/OurStory";
 import Innovations from "../components/Innovations";
-import ValuesCards from "../components/ValuesCards";
+import ValuesSection from "../components/ValuesSection";
 import CarrierLink from "../components/CarrierLink";
 import Factory from "../components/Factory";
 
@@ -15,7 +15,7 @@ export default function AboutUs() {
       <section className="about-content">
         <OurStory />
         <Innovations />
-        <ValuesCards />
+        <ValuesSection />
         <Factory />
         <CarrierLink />
       </section>

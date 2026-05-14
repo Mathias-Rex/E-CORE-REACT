@@ -4,12 +4,14 @@ import "./style.css";
 import AboutUs from "./pages/AboutUs";
 import Commercial from "./pages/Commercial";
 import Research from "./pages/Research";
+import Carrier from "./pages/Carrier.jsx";
 
 export default function App() {
   return (
     // <Commercial/>
-    <Research />
-    // <AboutUs />
+    // <Research />
+    // <Carrier />
+    <AboutUs />
     // <Home />
   );
 }
