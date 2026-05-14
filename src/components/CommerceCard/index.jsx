@@ -10,6 +10,16 @@ export default function CommerceCard({ship}) {
         <h3>{ship.name}</h3>
         <p>{ship.description.overview}</p>
         <ul className="product-specs">
+          {ship?.specs?.mining?.chamber && (
+            <li>
+              <strong>Tárolókapacitás:</strong> {ship?.specs?.mining?.chamber}
+            </li>
+          )}
+          {ship?.specs?.mining?.extraction && (
+            <li>
+              <strong>Bányászati kapacitás:</strong> {ship?.specs?.mining?.extraction}
+            </li>
+          )}
           {ship?.specs?.cargo?.space && (
             <li>
               <strong>Rakománytér:</strong> {ship?.specs?.cargo?.space}
@@ -25,15 +35,46 @@ export default function CommerceCard({ship}) {
               <strong>Utasok száma:</strong> {ship?.specs?.capacity?.passengers}
             </li>
           )}
-          <li>
-            <strong>Max. sebesség:</strong> {ship?.specs?.performance?.maxSpeed}
-          </li>
-          <li>
-            <strong>Hatótáv:</strong> {ship?.specs.performance.range}
-          </li>
-          <li>
-            <strong>Legénység:</strong> {ship?.specs?.crew?.crew}
-          </li>
+          {ship?.specs?.performance?.maxSpeed && (
+            <li>
+              <strong>Max. sebesség:</strong> {ship?.specs?.performance?.maxSpeed}
+            </li>
+          )}
+          {ship?.specs?.performance?.range && (
+            <li>
+              <strong>Hatótáv:</strong> {ship?.specs?.performance?.range}
+            </li>
+          )}
+          {ship?.specs?.crew?.crew && (
+            <li>
+              <strong>Legénység:</strong> {ship?.specs?.crew?.crew}
+            </li>
+          )}
+          {ship?.specs?.system?.crew && (
+            <li>
+              <strong>Legénység:</strong> {ship?.specs?.system?.crew}
+            </li>
+          )}
+          {ship?.specs?.capacity?.gasExtraction && (
+            <li>
+              <strong>Kitermelési kapacitás:</strong> {ship?.specs?.capacity?.gasExtraction}
+            </li>
+          )}
+          {ship?.specs?.capacity?.storage && (
+            <li>
+              <strong>Tárolókapacitás:</strong> {ship?.specs?.capacity?.storage}
+            </li>
+          )}
+          {ship?.specs?.mining?.depth && (
+            <li>
+              <strong>Fúrási mélység:</strong> {ship?.specs?.mining?.depth}
+            </li>
+          )}
+          {ship?.specs?.mining?.extract && (
+            <li>
+              <strong>Bányászati kapacitás:</strong> {ship?.specs?.mining?.extract}
+            </li>
+          )}
         </ul>
       </li>
     </a>
