@@ -1,19 +1,21 @@
-// import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
-import {CommerceList as ships} from "../CommerceSection/ships";
-import  CommerceCard from "../CommerceCard";
+// import {CommerceList as ships} from "../CommerceSection/ships";
+import CommerceCard from "../CommerceCard";
 
 export default function CommerceShips() {
-  // const [ships, setShips] = useState([]);
+  const [ships, setShips] = useState([]);
 
-  // useEffect(() => {
-  //   async function fetchShips() {
-  //     const res = await fetch("https://ecore-backend-production.up.railway.app/api/spacecrafts/type/commercial");
-  //     const data = await res.json();
-  //     setShips(data);
-  //   }
-  //   fetchShips();
-  // }, []);
+  useEffect(() => {
+    async function fetchShips() {
+      const res = await fetch(
+        "https://ecore-backend-production.up.railway.app/api/spacecrafts/type/commercial",
+      );
+      const data = await res.json();
+      setShips(data);
+    }
+    fetchShips();
+  }, []);
 
   return (
     <>
