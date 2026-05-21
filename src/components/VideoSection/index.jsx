@@ -7,7 +7,7 @@ export default function VideoSection() {
           <video
             id="factoryVideo"
             className="factory-video"
-            autoplay
+            autoPlay
             muted
             loop
           >
