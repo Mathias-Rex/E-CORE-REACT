@@ -1,4 +1,4 @@
-import Title from "../components/Title";
+import AboutUsTitle from "../components/AboutUsTitle";
 import OurStory from "../components/OurStory";
 import Innovations from "../components/Innovations";
 import ValuesSection from "../components/ValuesSection";
@@ -8,7 +8,7 @@ import Factory from "../components/Factory";
 export default function AboutUs() {
   return (
     <>
-      <Title />
+      <AboutUsTitle />
       <section className="about-content">
         <OurStory />
         <Innovations />
