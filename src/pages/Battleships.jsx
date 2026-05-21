@@ -1,9 +1,9 @@
-import BattleSection from "../components/BattleSection";
+import BattleshipsSection from "../components/BattleshipsSection";
 
 export default function Battleships() {
   return (
     <>
-      <BattleSection />
+      <BattleshipsSection />
     </>
   );
 }

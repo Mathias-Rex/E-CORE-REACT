@@ -8,6 +8,7 @@ import Commercial from "./pages/Commercial";
 import Research from "./pages/Research";
 import Mining from "./pages/Mining";
 import Carrier from "./pages/Carrier.jsx";
+import Battleships from "./pages/Battleships";
 
 import "./style.css";
 

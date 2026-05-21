@@ -1,6 +1,6 @@
 // import { useEffect, useState } from "react";
 
-import {BattleList as ships} from "./ships";
+import { battleships as ships } from "./battleships";
 import  ShipCard from "../ShipCard";
 
 export default function BattleShips() {
