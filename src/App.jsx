@@ -16,13 +16,16 @@ export default function App() {
 
   return (
     <Layout page={page} setPage={setPage}>
-      {page === "home" && <Home />}
-      {page === "commercial" && <Commercial />}
-      {page === "research" && <Research />}
-      {page === "mining" && <Mining />}
-      {/* {page === "battleships" && <Battleships />} */}
-      {page === "aboutus" && <AboutUs />}
-      {page === "carrier" && <Carrier />}
+      <Carrier />
     </Layout>
+    // <Layout page={page} setPage={setPage}>
+    //   {page === "home" && <Home />}
+    //   {page === "commercial" && <Commercial />}
+    //   {page === "research" && <Research />}
+    //   {page === "mining" && <Mining />}
+    //   {/* {page === "battleships" && <Battleships />} */}
+    //   {page === "aboutus" && <AboutUs />}
+    //   {page === "carrier" && <Carrier />}
+    // </Layout>
   );
 }

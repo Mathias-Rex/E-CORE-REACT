@@ -1,4 +1,4 @@
-export default function Title() {
+export default function AboutUsTitle() {
   return (
     <div className="product-header">
       <h1>Rólunk</h1>

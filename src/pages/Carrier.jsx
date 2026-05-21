@@ -1,10 +1,11 @@
-import Title from "../components/Title";
+import CarrierSection from "../components/CarierSection";
+import CarrierTitle from "../components/CarrierTitle";
 
-export default function AboutUs() {
+export default function Carrier() {
   return (
     <>
-      <Title />
-      <section className="about-content"></section>
+      <CarrierTitle />
+      <CarrierSection />
     </>
   );
 }
