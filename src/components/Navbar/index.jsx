@@ -1,9 +1,6 @@
-export default function Navbar({ page, setPage }) {
-  const handleLinkClick = (e, pageName) => {
-    e.preventDefault();
-    setPage(pageName);
-  };
+import { NavLink } from "react-router";
 
+export default function Navbar({ page, setPage }) {
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -22,58 +19,34 @@ export default function Navbar({ page, setPage }) {
 
         <ul className="nav-menu" id="nav-menu">
           <li>
-            <a
-              href="index.html"
-              className={page === "home" ? "active" : ""}
-              onClick={(e) => handleLinkClick(e, "home")}
-            >
+            <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
               Home
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="pages/commercial/index.html"
-              className={page === "commercial" ? "active" : ""}
-              onClick={(e) => handleLinkClick(e, "commercial")}
-            >
+            <NavLink to="/commercial" className={({ isActive }) => (isActive ? "active" : "")}>
               Kereskedelem
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="pages/mining/index.html"
-              className={page === "mining" ? "active" : ""}
-              onClick={(e) => handleLinkClick(e, "mining")}
-            >
+            <NavLink to="/mining" className={({ isActive }) => (isActive ? "active" : "")}>
               Bányászat
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="pages/research/index.html"
-              className={page === "research" ? "active" : ""}
-              onClick={(e) => handleLinkClick(e, "research")}
-            >
+            <NavLink to="/research" className={({ isActive }) => (isActive ? "active" : "")}>
               Kutatás
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="pages/battleships/index.html"
-              className={page === "battleships" ? "active" : ""}
-              onClick={(e) => handleLinkClick(e, "battleships")}
-            >
+            <NavLink to="/battleships" className={({ isActive }) => (isActive ? "active" : "")}>
               Harcászat
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="pages/aboutus/index.html"
-              className={page === "aboutus" ? "active" : ""}
-              onClick={(e) => handleLinkClick(e, "aboutus")}
-            >
+            <NavLink to="/aboutus" className={({ isActive }) => (isActive ? "active" : "")}>
               Rólunk
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

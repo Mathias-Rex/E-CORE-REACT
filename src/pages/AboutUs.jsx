@@ -2,7 +2,7 @@ import AboutUsTitle from "../components/AboutUsTitle";
 import OurStory from "../components/OurStory";
 import Innovations from "../components/Innovations";
 import ValuesSection from "../components/ValuesSection";
-import CarrierLink from "../components/CarrierLink";
+import CarrierLink from "../components/CareersLink";
 import Factory from "../components/Factory";
 
 export default function AboutUs() {

@@ -1,5 +1,5 @@
 import { jobs } from "./jobs";
-import CarrierCard from "../CarrierCard";
+import CarrierCard from "../CareersCard";
 
 export default function CarrierSection() {
   return (

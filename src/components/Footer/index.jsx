@@ -1,48 +1,49 @@
+import { NavLink } from "react-router";
+
 export default function Footer() {
   return (
-      <footer className="footer">
-        <div className="container">
-          <div className="footer-content">
-            <div className="footer-section">
-              <h4>E-CORE Űrjárművek</h4>
-              <p>Az űrutazás következő generációja</p>
-            </div>
-
-            <div className="footer-section">
-              <h4>Kapcsolat</h4>
-              <p>
-                Email:&nbsp;
-                <a href="mailto:ex.co.or.rre.en@gmail.com">info@ecore-space.com</a>
-              </p>
-              <p>Tel: +36 70 724 3066</p>
-              <p>
-                HR:&nbsp;
-                <a href="mailto:ex.co.or.rre.en@gmail.com">
-                  karrier@ecore-space.com
-                </a>
-              </p>
-            </div>
-
-            <div className="footer-section">
-              <h4>Gyors linkek</h4>
-              <ul>
-                <li>
-                  <a href="pages/aboutus/index.html">Rólunk</a>
-                </li>
-                <li>
-                  <a href="pages/carreers/index.html">Karrier</a>
-                </li>
-                <li>
-                  <a href="#">Támogatás</a>
-                </li>
-              </ul>
-            </div>
+    <footer className="footer">
+      <div className="container">
+        <div className="footer-content">
+          <div className="footer-section">
+            <h4>E-CORE Űrjárművek</h4>
+            <p>Az űrutazás következő generációja</p>
           </div>
 
-          <div className="footer-bottom">
-            <p>&copy; 2026 E-CORE Űrjárművek. Minden jog fenntartva.</p>
+          <div className="footer-section">
+            <h4>Kapcsolat</h4>
+            <p>
+              Email:&nbsp;
+              <a href="mailto:ex.co.or.rre.en@gmail.com">info@ecore-space.com</a>
+            </p>
+            <p>Tel: +36 70 724 3066</p>
+            <p>
+              HR:&nbsp;
+              <a href="mailto:ex.co.or.rre.en@gmail.com">karrier@ecore-space.com</a>
+            </p>
+          </div>
+
+          <div className="footer-section">
+            <h4>Gyors linkek</h4>
+            <ul>
+              <li>
+                <NavLink to="/aboutus">Home</NavLink>
+              </li>
+
+              <li>
+                <NavLink to="/careers">Karrier</NavLink>
+              </li>
+              <li>
+                <a href="#">Támogatás</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </footer>
+
+        <div className="footer-bottom">
+          <p>&copy; 2026 E-CORE Űrjárművek. Minden jog fenntartva.</p>
+        </div>
+      </div>
+    </footer>
   );
 }
