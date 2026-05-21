@@ -20,7 +20,7 @@ export default function App() {
       {page === "commercial" && <Commercial />}
       {page === "research" && <Research />}
       {page === "mining" && <Mining />}
-      {/* {page === "battleships" && <Battleships />} */}
+      {page === "battleships" && <Battleships />}
       {page === "aboutus" && <AboutUs />}
       {page === "carrier" && <Carrier />}
     </Layout>

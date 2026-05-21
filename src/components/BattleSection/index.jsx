@@ -3,7 +3,7 @@
 import {BattleList as ships} from "./ships";
 import  ShipCard from "../ShipCard";
 
-export default function MiningShips() {
+export default function BattleShips() {
   // const [ships, setShips] = useState([]);
 
   // useEffect(() => {
@@ -18,8 +18,8 @@ export default function MiningShips() {
   return (
     <>
       <div className="product-header">
-        <h1>Bányászati járművek</h1>
-        <p>Speciális felszerelések aszteroida és bolygó bányászathoz</p>
+        <h1>Harcászati járművek</h1>
+        <p>Védelmi és biztonsági célú űrjárművek</p>
       </div>
       <div className="container">
         <ul className="products-grid">
