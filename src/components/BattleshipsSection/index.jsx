@@ -1,16 +1,14 @@
 // import { useEffect, useState } from "react";
 
-import {CommerceList as ships} from "../CommerceSection/ships";
-import ShipCard from "../ShipCard";
+import { battleships as ships } from "./battleships";
+import  ShipCard from "../ShipCard";
 
-export default function CommerceShips() {
+export default function BattleShips() {
   // const [ships, setShips] = useState([]);
 
   // useEffect(() => {
   //   async function fetchShips() {
-  //     const res = await fetch(
-  //       "https://ecore-backend-production.up.railway.app/api/spacecrafts/type/commercial",
-  //     );
+  //     const res = await fetch("https://ecore-backend-production.up.railway.app/api/spacecrafts/type/commercial");
   //     const data = await res.json();
   //     setShips(data);
   //   }
@@ -20,8 +18,8 @@ export default function CommerceShips() {
   return (
     <>
       <div className="product-header">
-        <h1>Kereskedelmi járművek</h1>
-        <p>Megbízható és hatékony szállítási megoldások az űrben</p>
+        <h1>Harcászati járművek</h1>
+        <p>Védelmi és biztonsági célú űrjárművek</p>
       </div>
       <div className="container">
         <ul className="products-grid">
