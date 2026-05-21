@@ -1,4 +1,4 @@
-export default function CommerceCard({ship}) {
+export default function ShipCard({ship}) {
   console.log(ship);
   return (
     <a className="product-item">

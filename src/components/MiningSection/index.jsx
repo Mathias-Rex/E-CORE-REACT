@@ -1,14 +1,14 @@
 // import { useEffect, useState } from "react";
 
 import {MiningList as ships} from "./ships";
-import  CommerceCard from "../CommerceCard";
+import  ShipCard from "../ShipCard";
 
 export default function MiningShips() {
   // const [ships, setShips] = useState([]);
 
   // useEffect(() => {
   //   async function fetchShips() {
-  //     const res = await fetch("https://ecore-backend-production.up.railway.app/api/spacecrafts/type/commercial");
+  //     const res = await fetch("https://ecore-backend-production.up.railway.app/api/spacecrafts/type/mining");
   //     const data = await res.json();
   //     setShips(data);
   //   }
@@ -24,7 +24,7 @@ export default function MiningShips() {
       <div className="container">
         <ul className="products-grid">
           {ships.map((ship) => (
-            <CommerceCard key={ship.id} ship={ship} />
+            <ShipCard key={ship.id} ship={ship} />
           ))}
         </ul>
       </div>

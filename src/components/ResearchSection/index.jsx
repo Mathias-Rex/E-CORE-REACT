@@ -1,7 +1,7 @@
 // import { useEffect, useState } from "react";
 
 import {ResearchList as ships} from "./ships";
-import  CommerceCard from "../CommerceCard";
+import  ShipCard from "../ShipCard";
 
 export default function ResearchShips() {
   // const [ships, setShips] = useState([]);
@@ -24,7 +24,7 @@ export default function ResearchShips() {
       <div className="container">
         <ul className="products-grid">
           {ships.map((ship) => (
-            <CommerceCard key={ship.id} ship={ship} />
+            <ShipCard key={ship.id} ship={ship} />
           ))}
         </ul>
       </div>
