@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 
-export default function Navbar({ page, setPage }) {
+export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -24,22 +24,28 @@ export default function Navbar({ page, setPage }) {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/commercial" className={({ isActive }) => (isActive ? "active" : "")}>
+            <NavLink
+              to="/ships/commercial"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
               Kereskedelem
             </NavLink>
           </li>
           <li>
-            <NavLink to="/mining" className={({ isActive }) => (isActive ? "active" : "")}>
+            <NavLink to="/ships/mining" className={({ isActive }) => (isActive ? "active" : "")}>
               Bányászat
             </NavLink>
           </li>
           <li>
-            <NavLink to="/research" className={({ isActive }) => (isActive ? "active" : "")}>
+            <NavLink to="/ships/research" className={({ isActive }) => (isActive ? "active" : "")}>
               Kutatás
             </NavLink>
           </li>
           <li>
-            <NavLink to="/battleships" className={({ isActive }) => (isActive ? "active" : "")}>
+            <NavLink
+              to="/ships/battleship"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
               Harcászat
             </NavLink>
           </li>

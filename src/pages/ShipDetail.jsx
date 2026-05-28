@@ -1,14 +1,18 @@
-import { spacecrafts } from "../../mock_data/spacecrafts.js";
+import { useParams } from "react-router";
 
-export default function CheckoutPage({ shipName }) {
-  const ship = spacecrafts.find((ship) => ship.name === shipName);
-  console.log(shipName);
+import { spacecrafts } from "../mock_data/spacecrafts.js";
+
+export default function ShipDetail() {
+  const { id } = useParams();
+
+  const ship = spacecrafts.find((ship) => ship.id === Number(id));
+
   return (
     <section className="ship-detail">
       <div className="container">
         <div className="ship-header">
           <div className="ship-title-section">
-            <h1>{shipName}</h1>
+            <h1>{ship.name}</h1>
             <p className="ship-category">{ship.category}</p>
             <p className="ship-tagline">{ship.tagline}</p>
           </div>

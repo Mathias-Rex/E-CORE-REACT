@@ -1,7 +1,9 @@
-export default function ShipCard({ship}) {
+import { NavLink } from "react-router";
+
+export default function ShipCard({ ship }) {
   console.log(ship);
   return (
-    <a className="product-item">
+    <NavLink to={`/ship-detail/${ship.id}`} className="product-item">
       <div className="product-image-container">
         <canvas className="smoke-canvas"></canvas>
         <img src={ship.image} alt={ship.name} />
@@ -77,6 +79,6 @@ export default function ShipCard({ship}) {
           )}
         </ul>
       </li>
-    </a>
+    </NavLink>
   );
 }
