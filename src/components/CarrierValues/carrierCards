@@ -1,0 +1,20 @@
+export const CarrierCards = [
+  {
+    id: 1,
+    title: "Innovatív környezet",
+    image: "https://mathias-rex.github.io/2025_Hack-Code_ecore_web/assets/images/innovative-environment.jpg",
+    description: "Dolgozz a legmodernebb űrtechnológiákon és légy részese az emberiség jövőjének."
+  },
+  {
+    id: 1,
+    title: "Versenyképes juttatások",
+    image: "https://mathias-rex.github.io/2025_Hack-Code_ecore_web/assets/images/competitive-income.jpg",
+    description: "Kiváló fizetés, cafeteria, magánegészségügy és nyugdíjpénztár."
+  },
+  {
+    id: 1,
+    title: "Fejlődési lehetőségek",
+    image: "https://mathias-rex.github.io/2025_Hack-Code_ecore_web/assets/images/growth-opportunities.jpg",
+    description: "Folyamatos képzések, tréningek és előrelépési lehetőségek."
+  },
+]

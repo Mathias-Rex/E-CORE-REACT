@@ -1,4 +1,5 @@
 import CarrierSection from "../components/CarierSection";
+import CarrierCard from "../components/CarrierCard";
 import CarrierTitle from "../components/CarrierTitle";
 
 export default function Carrier() {
@@ -6,6 +7,7 @@ export default function Carrier() {
     <>
       <CarrierTitle />
       <CarrierSection />
+      <CarrierCard/>
     </>
   );
 }
