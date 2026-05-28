@@ -1,4 +1,4 @@
-import { useParams } from "react-router";
+import { useParams } from "react-router-dom";
 
 import { spacecrafts } from "../mock_data/spacecrafts.js";
 

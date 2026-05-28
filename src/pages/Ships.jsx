@@ -1,4 +1,4 @@
-import { useParams } from "react-router";
+import { useParams } from "react-router-dom";
 
 import BattleshipsSection from "../components/BattleshipsSection";
 import ShipCard from "../components/ShipCard";
