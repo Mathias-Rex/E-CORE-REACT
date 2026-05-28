@@ -1,5 +1,5 @@
 import { CarrierCard } from "../../data/carrierValues";
-import CarrierCards from "../CarrierCard";
+import {CarrierCards} from "../CarrierCard";
 
 export default function carrierCards() {
   return (
